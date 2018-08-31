@@ -1,5 +1,5 @@
 # make-fashionAPP
 
-Make FAshion is a prototype application for a clothes sales platform.
+Make Fashion is a prototype application for a clothes sales platform created using "create-react-app".
 
-[Demo here](http://ticketarena.netlify.com) 
+[Demo here](https://makefashion.netlify.com/) 
