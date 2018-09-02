@@ -10,7 +10,7 @@ import Footer from './Footer';
 const Modal = () => {
   return (
     <div id="my-modal" className="popup">
-    <div id="close">X</div>
+    <div id="close">&times;</div>
     <p>My Modal</p>
       <img />
     </div>
