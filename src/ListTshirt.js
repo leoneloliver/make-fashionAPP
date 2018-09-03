@@ -17,6 +17,9 @@ class ListTshirt extends React.Component {
   render() {
     return (   
       <div className="items">
+        <div className="page-title">
+          <h2>T-Shirts</h2>
+        </div>
         <Helmet title="T-Shirts - Products" />
         {this.state.items.map(item => (
           <div className="item" data-myattribute={ item.img }>

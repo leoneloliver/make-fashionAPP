@@ -6,7 +6,6 @@ import Main from './Main';
 import Footer from './Footer';
 
 
-
 const Modal = () => {
   return (
     <div id="my-modal" className="popup">

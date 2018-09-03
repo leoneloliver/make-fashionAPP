@@ -20,5 +20,15 @@ function clickable(){
   function openMenu(){
     document.getElementsByClassName('m-menu')[0].classList.add("open");
   }
+
 }
-setTimeout(function(){ clickable(); }, 1000);
+// setTimeout(function(){ clickable(); }, 1000);
+setInterval(function(){ clickable(); }, 1000);
+
+// var linkItem = document.getElementsByClassName("linkto");
+//   Array.from(linkItem).forEach(function(el) {
+//     el.addEventListener("click", setTimeout(function(){ clickable(); }, 1000));
+//   });
+
+
+// document.getElementById("breadcrumbs").addEventListener("click", clickable);
