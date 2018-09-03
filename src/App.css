@@ -230,7 +230,7 @@
      font-weight: bold;
      display: none;
      cursor: pointer;
-     margin-top: -20px;
+     margin-top: -2px;
 }
  .sidebar ul.open{
      margin-left: 0 !important;
