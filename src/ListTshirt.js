@@ -8,7 +8,8 @@ class ListTshirt extends React.Component {
     items: []
   }
   componentDidMount() {
-    axios.get('https://api.myjson.com/bins/v2310')
+    const prodCategID = "v2310";
+    axios.get('https://api.myjson.com/bins/'+prodCategID)
       .then(res => {
         const items = res.data;
         this.setState({ items });

@@ -7,8 +7,10 @@ class ListProducts extends React.Component {
   state = {
     items: []
   }
+
   componentDidMount() {
-    axios.get('https://api.myjson.com/bins/fr8s4')
+    const prodCategID = "fr8s4";
+    axios.get('https://api.myjson.com/bins/'+prodCategID)
       .then(res => {
         const items = res.data;
         this.setState({ items });

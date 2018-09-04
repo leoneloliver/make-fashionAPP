@@ -244,10 +244,12 @@
     color: #f1c556;
     text-transform: uppercase;
     font-size: 0.9em;
+    text-decoration: none;
 }
 .page-title {
     width: 100%;
 }
+
  @media only screen and (max-width: 900px) {
      .image-container {
          width: 33%;
