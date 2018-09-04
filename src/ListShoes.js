@@ -9,7 +9,8 @@ class ListShoes extends React.Component {
   }
   componentDidMount() {
     const prodCategID = "r9x0s";
-    axios.get('https://api.myjson.com/bins/'+prodCategID)
+    const apiURL= "https://api.myjson.com/bins/";
+    axios.get(apiURL+prodCategID)
       .then(res => {
         const items = res.data;
         this.setState({ items });
