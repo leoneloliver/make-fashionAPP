@@ -8,7 +8,7 @@ class ListProducts extends React.Component {
     items: []
   }
   componentDidMount() {
-    axios.get('https://api.myjson.com/bins/73bm4')
+    axios.get('https://api.myjson.com/bins/fr8s4')
       .then(res => {
         const items = res.data;
         this.setState({ items });
@@ -56,5 +56,7 @@ class ListProducts extends React.Component {
 
 }
 export default ListProducts;
+
+// https://api.myjson.com/bins/73bm4
 
 
