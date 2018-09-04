@@ -10,8 +10,8 @@ class ListProducts extends React.Component {
 
   componentDidMount() {
     const prodCategID = "fr8s4";
-    const apiURL= "https://api.myjson.com/bins/";
-    axios.get(apiURL+prodCategID)
+    const apiUrl = "https://api.myjson.com/bins/";
+    axios.get(apiUrl+prodCategID)
       .then(res => {
         const items = res.data;
         this.setState({ items });

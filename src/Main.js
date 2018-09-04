@@ -4,6 +4,7 @@ import ListTshirt from './ListTshirt';
 import ListShoes from './ListShoes';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
+
 // const MainMenu = () => {
 //   return (
 //     <div className="breadcrumbs">
@@ -19,6 +20,7 @@ import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 //     </div>
 //   );
 // };
+
 
 class Main extends Component {
 
@@ -64,13 +66,14 @@ class Main extends Component {
       { name: "Tshirts", path: "/tshirt" },
       { name: "Shoes", path: "/shoes" }
     ];
+
     return (
     	<Router>
 	      <main className="main" >
-            <div className="breadcrumbs">          
+            <div className="breadcrumbs">           
             {items.map(item => (   
-              <Link to={item.path} onClick={this.handleClick} className="linkto">{item.name}<span>&nbsp;&nbsp;/&nbsp;&nbsp;</span></Link>             
-            ))}             
+              <Link to={item.path} onClick={this.handleClick} className="linkto">{item.name}<span>&nbsp;&nbsp;/&nbsp;&nbsp;</span></Link>      
+            ))}            
             </div>
 	         <Route exact path="/" component={ListProducts} />
 	         <Route exact path="/tshirt" component={ListTshirt} />
