@@ -72,7 +72,7 @@ class Main extends Component {
 	      <main className="main" >
             <div className="breadcrumbs">           
             {items.map(item => (   
-              <Link to={item.path} onClick={this.handleClick} className="linkto">{item.name}<span>&nbsp;&nbsp;/&nbsp;&nbsp;</span></Link>      
+              <Link to={item.path} onClick={this.handleClick} className="linkto"><span className="square">■</span> {item.name}<span>&nbsp;&nbsp;/&nbsp;&nbsp;</span></Link>      
             ))}            
             </div>
 	         <Route exact path="/" component={ListProducts} />

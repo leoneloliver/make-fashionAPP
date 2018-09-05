@@ -258,7 +258,14 @@ a.linkto:last-child span {
     margin-bottom: 25px;
     margin-top: 25px;
 }
-
+span.square {
+    /* line-height: 28px; */
+    font-size: 24px;
+    color: #f1c556;
+    display: table-cell !important;
+    /* margin-right: 24px; */
+    padding-right: 4px;
+}
 @media only screen and (max-width: 900px) {
      .image-container {
          width: 33%;
