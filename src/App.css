@@ -246,11 +246,14 @@
     font-size: 0.9em;
     text-decoration: none;
 }
+a.linkto:last-child span {
+    display: none;
+}
 .page-title {
     width: 100%;
 }
 
- @media only screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
      .image-container {
          width: 33%;
     }
