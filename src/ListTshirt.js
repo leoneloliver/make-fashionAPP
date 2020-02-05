@@ -8,7 +8,7 @@ class ListTshirt extends React.Component {
     items: []
   }
   componentDidMount() {
-    const prodCategID = "v2310";
+    const prodCategID = "18dyyy";
     const apiURL= "https://api.myjson.com/bins/";
     axios.get(apiURL+prodCategID)
       .then(res => {
